@@ -32,6 +32,10 @@ header h1 {
     font-size: 2.5rem;
 }
 
+header h2 {
+    color: #007a6c;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -74,13 +78,24 @@ article {
 }
 
 article h2 {
-    color: #00796b; /* Teal color for headings */
+    color: #007a6c; /* Teal color for headings */
     font-size: 2rem; /* Larger font size for headings */
 }
 
 article p {
     color: #555; /* Dark gray for text */
     font-size: 1.25rem; /* Larger font size for paragraphs */
+}
+
+
+article ul {
+    list-style:disc;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Apply the same font as paragraphs */
+}
+
+article ul li {
+    margin: 0 2rem;
 }
 
 footer {
